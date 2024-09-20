@@ -1,0 +1,143 @@
+.categoryAddBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    border: 1px solid transparent;
+
+    background-color: transparent; /* Removes background color */
+    background: none; /* Ensures no background is applied */
+}
+.categoryEditBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    border: 1px solid transparent;
+
+    background-color: transparent; /* Removes background color */
+    background: none; /* Ensures no background is applied */
+}
+.categoryDelBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    border: 1px solid transparent;
+
+    background-color: transparent; /* Removes background color */
+    background: none; /* Ensures no background is applied */
+}
+.upload-product-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.upload-media-area {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.active-link {
+    color: red; /* Change this to the color you want */
+}
+
+.bg-google {
+    background-color: #db4437; /* Google color */
+}
+
+.border-google {
+    border-color: #db4437;
+}
+
+.bg-linkedin {
+    background-color: #0077b5; /* LinkedIn color */
+}
+
+.border-linkedin {
+    border-color: #0077b5;
+}
+
+.bg-telegram {
+    background-color: #0088cc; /* Telegram color */
+}
+
+.border-telegram {
+    border-color: #0088cc;
+}
+
+.bg-whatsapp {
+    background-color: #25d366; /* WhatsApp green color */
+}
+
+.border-whatsapp {
+    border-color: #25d366;
+}
+
+.message-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    text-align: center;
+    background-color: #4caf50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+}
+
+.message-container button {
+    margin-top: 10px;
+}
+
+.dm-upload-avatar-siteLogo .avatrSrc {
+    max-width: 100px;
+}
+
+.dm-upload-avatar-siteFavicon .avatrSrc {
+    max-width: 100px;
+}
